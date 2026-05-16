@@ -46,7 +46,8 @@ const App = () => {
   const isPointInPolygon = (point:any, polygon:any) => {
     const x = point.latitude;
     const y = point.longitude;
-    
+
+    // if the current location is insde the geo-fencing 
     let inside = false;
     for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
       const xi = polygon[i].latitude, yi = polygon[i].longitude;
@@ -56,7 +57,6 @@ const App = () => {
         && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
       if (intersect) inside = !inside;
     }
-    
     return inside;
   };
 
