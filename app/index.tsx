@@ -8,8 +8,8 @@ import Svg, { Circle } from 'react-native-svg';
 const GEO_FENCE_COORDINATES = [
   // Northwest Border (Uttarkashi/Tibet)
   { latitude: 31.0154, longitude: 79.1234 }, // Niti Pass
-  { latitude: 30.8765, longitude: 79.3456 }, // Mana Pass
-  { latitude: 30.7654, longitude: 79.5678 }, // Badrinath area
+  { latitude: 30.8765, longitude: 79.3366 }, // Mana Pass
+  { latitude: 30.7654, longitude: 79.5648 }, // Badrinath area
 
   // Western Border (Garhwal Region)
   { latitude: 30.4567, longitude: 79.0123 }, // Rudraprayag
