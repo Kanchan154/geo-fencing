@@ -119,6 +119,7 @@ const App = () => {
       longitude: currentLocation.coords.longitude
     };
 
+    // location Position
     if (isPointOnEdge(point, GEO_FENCE_COORDINATES)) {
       setStatus('ON THE EDGE');
     } else if (isPointInPolygon(point, GEO_FENCE_COORDINATES)) {
