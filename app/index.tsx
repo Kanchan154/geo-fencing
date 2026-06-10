@@ -12,7 +12,7 @@ const GEO_FENCE_COORDINATES = [
   { latitude: 30.7654, longitude: 79.5648 }, // Badrinath area
 
   // Western Border (Garhwal Region)
-  { latitude: 30.4567, longitude: 79.0123 }, // Rudraprayag
+  { latitude: 30.4657, longitude: 79.0123 }, // Rudraprayag
   { latitude: 30.1234, longitude: 79.2345 }, // Chamoli
   { latitude: 29.8765, longitude: 79.4567 }, // Pauri border
 
