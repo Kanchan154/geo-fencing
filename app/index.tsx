@@ -28,10 +28,10 @@ const GEO_FENCE_COORDINATES = [
   { latitude: 29.6789, longitude: 80.7890 }, // Tawaghat
 
   // Northern Border (Tibet)
-  { latitude: 30.1234, longitude: 80.8765 }, // Lipulekh Pass
+  { latitude: 30.1546, longitude: 80.8765 }, // Lipulekh Pass
   { latitude: 30.3456, longitude: 80.6543 }, // Kalapani
   { latitude: 30.5678, longitude: 80.4321 }, // Gunji
-  { latitude: 30.7890, longitude: 80.2109 }, // Kuti Valley
+  { latitude: 30.8975, longitude: 80.2109 }, // Kuti Valley
 
   // Closing point
   { latitude: 31.0154, longitude: 79.1234 }  // Back to Niti Pass
